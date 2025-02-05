@@ -17,7 +17,7 @@ export function Navigation({ currentPage, onPageChange }: NavigationProps) {
   ];
 
   return (
-    <nav className={`${theme === 'light' ? 'bg-white/80' : 'bg-gray-900/80'} backdrop-blur-xl border-b ${theme === 'light' ? 'border-black/10' : 'border-[#FECF00]/10'}`}>
+    <nav className={`${theme === 'light' ? 'bg-white/80' : 'black'} backdrop-blur-xl border-b ${theme === 'light' ? 'border-black/10' : 'border-[#FECF00]/10'}`}>
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Home button aligned to the left */}

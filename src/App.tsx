@@ -35,13 +35,13 @@ function App() {
           <>
             <div className="flex flex-col items-center justify-center mb-16 text-center">
               <div className="relative mb-8">
-                <div className={`absolute inset-0 rounded-full ${theme === 'light' ? 'bg-gradient-to-r from-black/20 to-black/10' : 'bg-gradient-to-r from-[#FECF00]/20 to-[#FECF00]/10'} blur-2xl`} />
+                <div className={`absolute inset-0 rounded-full ${theme === 'light' ? 'bg-gradient-to-r from-black/10 to-black/10' : 'bg-gradient-to-r from-[#FECF00]/20 to-[#FECF00]/10'} blur-2xl`} />
                 <div className={`relative ${theme === 'light' ? 'bg-black/9' : 'bg-[#FECF00]/1'} `}>
-                  <img src="https://i.postimg.cc/W1CbRfQH/METRICS-LOGOTIPO.png" alt="Metrics For You" />
+                  <img className={`relative ${theme === 'light' ? 'contrast-200 brightness-50 grayscale' : ''} `} src="https://i.postimg.cc/W1CbRfQH/METRICS-LOGOTIPO.png" alt="Metrics For You" />
                 </div>
               </div>
               <p className={`text-lg max-w-2xl  ${theme === 'light' ? 'text-gray-700' : 'text-[#FECF00]/90 glow-sm'}`}>
-                Escolha uma métrica abaixo e descubra insights valiosos para otimizar suas campanhas de marketing digital
+              Otimize suas campanhas de marketing digital com nossa calculadora de métricas. <br></br>Descubra insights valiosos sobre ROI, CAC, LTV e muito mais.
               </p>
             </div>
 
