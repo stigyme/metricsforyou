@@ -112,7 +112,7 @@ function App() {
                                 <Calculator className={`w-5 h-5 ${theme === 'light' ? 'text-black/60 group-hover:text-black' : 'text-[#FECF00]/60 group-hover:text-[#FECF00]'} transition-colors duration-300`} />
                               </div>
                               <div className="text-left">
-                                <h4 className={`font-medium mb-2 ${theme === 'light' ? 'text-black/90 group-hover:text-black' : 'text-[#FECF00]/90 group-hover:text-[#FECF00]'} transition-colors duration-300`}>
+                                <h4 className={`font-medium mb-2 ${theme === 'light' ? 'text-black/90 group-hover:text-black ' : 'text-[#FECF00]/90 group-hover:text-[#FECF00]'} transition-colors duration-300`}>
                                   {metric.name}
                                 </h4>
                                 <p className={`text-sm ${theme === 'light' ? 'text-gray-600 group-hover:text-gray-900' : 'text-white/60 group-hover:text-white/80'} transition-colors duration-300`}>

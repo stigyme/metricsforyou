@@ -95,7 +95,7 @@ export function MetricCalculator({ metric }: MetricCalculatorProps) {
           <Info className={`w-5 h-5 ${theme === 'light' ? 'text-black/40 group-hover:text-black' : 'text-[#FECF00]/40 group-hover:text-[#FECF00]'}`} />
         </button>
 
-        <h2 className={`text-2xl font-semibold mb-3 flex items-center gap-3 ${theme === 'light' ? 'text-black' : 'text-white'}`}>
+        <h2 className={`sm:mr-10px sm:text-xl lg:mr-px lg:text-2xl font-semibold mb-3 flex items-center gap-3 ${theme === 'light' ? 'text-black' : 'text-white'}`}>
           <Calculator className={`w-6 h-6 ${theme === 'light' ? 'text-black' : 'text-[#FECF00]'}`} />
           {metric.name}
         </h2>
